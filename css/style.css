@@ -101,18 +101,104 @@ color: var(--bleu-normal);
 /* MAIN */
 main {
 width:100%;
-padding:0 1%;
+padding:1%;
 margin: 100px auto 0 auto;
 max-width: var(--max-width);
 box-sizing:border-box;
 }
-main div.main-sub {
-min-height:100vh;
-}
+/* search div */
 #div-search {
 display:flex;
 height:40px;
 align-items:center;
+margin-top:1.5em;
+}
+#div-map {
+background-color : var(--gris-clair);
+height:100%;
+width:40px;
+border-radius:10px 0 0 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#div-search input {
+box-sizing: border-box;
+height:40px;
+font-family:'Raleway',Arial, sans-serif;
+font-size:1em;
+font-weight:bold;
+} 
+#general-search {
+min-width:200px;
+border-left: none;
+border-right:none;
+border-top: thin solid var(--gris-clair);
+border-bottom: thin solid var(--gris-clair);
+padding:0 1%;
+}
+#general-submit {
+min-width:120px;
+color:white;
+background-color:var(--bleu-normal);
+border-radius: 0 10px 10px 0;
+border:none;
+}
+/* Filtres */
+#div-filter {
+min-height:100px;
+display:flex;
+align-items: center;
+}
+#div-filter h3 {
+margin:0 20px 0 0;
+}
+.filter-sub {
+box-sizing:border-box;
+position:relative;
+height:40px;
+line-height:40px;
+padding:0 20px 0 60px;
+border-radius:20px;
+border: thin solid var(--gris-clair);
+z-index:-1;
+}
+.filter-sub div {
+position:absolute;
+top:0;
+left:0;
+height:40px;
+width:40px;
+border-radius:50%;
+background-color: var(--bleu-clair);
+text-align:center;
+}
+
+/* infos */
+p.info {
+display: flex;
+align-items: center;
+}
+p.info span {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 1.6em;
+width: 1.6em;
+border: 0.5px solid var(--gris-clair);
+border-radius: 0.8em;
+margin-right:1em;
+}
+p.info span i {
+font-size : 0.8em;
+}
+/* Hébergements & activités */
+main div.main-sub {
+min-height:100vh;
+margin-top:2%;
+padding:2%;
+border-radius:20px;
+background-color:var(--gris-clair);
 }
 
 /* FOOTER */

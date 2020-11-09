@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -11,7 +12,7 @@
 			<nav>
 				<a href="index.html"><div id="logo"></div></a>
 				<div id="nav-sub">
-					<div class="anchor active"><a href="#hebergement">Hébergements</a></div>
+					<div class="anchor active"><a href="#">Hébergements</a></div>
 					<div class="anchor"><a href="#activites">Activités</a></div>
 					<div><a href="" class="link-bold">S'inscrire</a></div>
 				</div>
@@ -25,10 +26,17 @@
 					<div id="div-search">
 						<div id="div-map"><i class="fas fa-map-marker-alt"></i></div>
 						<input type="text" id="general-search" name="general-search" />
-						<input type="submit" value="Rechercher" />
+						<input type="submit" value="Rechercher" id="general-submit" />
 					</div>
 				</form>
-				<p><i class="fas fa-info blue"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+				<div id="div-filter">
+					<h3>Filtres</h3>
+					<h3 class="filter-sub"><div><i class="fas fa-money-bill-wave blue"></i></div>Economique</h3>
+					<h3 class="filter-sub"><div><i class="fas fa-child blue"></i></div>Familial</h3>
+					<h3 class="filter-sub"><div><i class="fas fa-heart blue"></i></div>Romantique</h3>
+					<h3 class="filter-sub"><div><i class="fas fa-dog blue"></i></div>Animaux autorisés</h3>
+				</div>
+				<p class="info"><span class="block"><i class="fas fa-info blue"></i></span>Plus de 500 logements sont disponibles dans cette ville</p>
 			</div>
 			<div id="hebergement" class="main-sub">
 				<h1>Hébergements à Marseille</h1>
