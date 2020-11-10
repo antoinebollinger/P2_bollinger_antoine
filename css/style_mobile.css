@@ -1,4 +1,4 @@
-/* STYLE DESKTOP
+/* STYLE MOBILE
 ================================================== */
 
 /* NAV */
@@ -146,7 +146,7 @@ transition: all 0.2s;
 transform: scale(1.05);
 }
 #activite .card-picture {
-height:13vh;
+height:15vh;
 background-position:center;
 background-size:cover;
 background-repeat:no-repeat;
