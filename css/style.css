@@ -163,7 +163,7 @@ border-radius:20px;
 border: thin solid var(--gris-clair);
 z-index:-1;
 }
-.filter-sub div {
+.filter-sub span {
 position:absolute;
 top:0;
 left:0;
