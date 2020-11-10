@@ -1,9 +1,10 @@
 :root {
---bleu-normal:#0065FC;
 --bleu-clair:#DEEBFF;
+--bleu-normal:#0065FC;
 --gris-clair:#F2F2F2;
+--gris-normal:#D9D9D9;
 --gris-fonce:#353535;
---max-width:1200px;
+--max-width:1400px;
 }
 @font-face {
 	font-family: 'Raleway';
