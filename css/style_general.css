@@ -115,7 +115,6 @@ height:50px;
 font-family:'Raleway',Arial, sans-serif;
 font-size:1em;
 font-weight:bold;
-padding:0;
 margin:0;
 } 
 #general-search {
@@ -191,7 +190,7 @@ justify-content: center;
 height: 1.6em;
 width: 1.6em;
 border: 0.5px solid var(--gris-clair);
-border-radius: 0.8em;
+border-radius: 50%;
 margin-right:1em;
 }
 p.info span i {
