@@ -1,0 +1,173 @@
+/* STYLE DESKTOP
+================================================== */
+
+/* NAV */
+header {
+position:fixed;
+height: 102px;
+width:100%;
+top:0;
+left:0;
+background-color: white;
+z-index:999;
+}
+nav {
+position:relative;
+height:100%;
+width:100%;
+padding:0 1%;
+margin: 0 auto;
+max-width: var(--max-width);
+box-sizing: border-box;
+}
+#logo, #nav-sub div.login {
+position:absolute;
+width:50%;
+height:80px;
+top:0;
+} 
+#logo {
+left:1%;
+background-image: url('../images/reservia.svg');
+background-position:center left;
+background-size: 100px;
+background-repeat: no-repeat;	
+}
+#nav-sub div.login {
+display: flex;
+align-items: center;
+justify-content:flex-end;
+padding:0 2%;
+right:0;
+}
+#nav-sub div.anchor {
+position:absolute;
+width:50%;
+height:20px;
+bottom:0;
+text-align:center;
+border-bottom:2px solid white;
+}
+#nav-sub div.anchor:nth-child(1) {
+left:0;
+}
+#nav-sub div.anchor:nth-child(2) {
+right:0;	
+}
+#nav-sub div.anchor.active {
+border-bottom:2px solid var(--bleu-normal);
+}
+#nav-sub div.active a, #nav-sub div:hover a {
+color: var(--bleu-normal);
+}
+
+/* MAIN */
+main {
+padding:0;
+margin:120px 0 0 0;
+}
+/* search div */
+#search {
+padding:0 5%;
+}
+#div-search {
+margin-top:2em;
+}
+#div-search button span {
+display:none;
+}
+#general-search {
+min-width:unset;
+flex:1;
+}
+#general-submit {
+min-width:unset;
+width:50px;
+border-radius:15px;
+}
+/* Filtres */
+#div-filter {
+margin-top:2em;
+}
+#div-filter > h3 {
+width:100%;
+}
+/* Info */
+p.info {
+align-items: flex-start;
+margin-top:2em;
+}
+/* Hébergements & activités */
+main div.main-container {
+display:flex;
+flex-direction:column-reverse;
+}
+/* Hébergements */
+#hebergement {
+border-radius:0;
+padding:5%;
+background-color:white;
+}
+#hebergement .card {
+width:100%;
+}
+/* Populaire */
+#populaire {
+border-radius:0;
+padding:5%;
+margin:0;
+}
+/* Activités */
+#main-activite {
+padding:5%;
+}
+#activite .flex-container {
+margin-top:2em;
+}
+#activite .column {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+#activite .card {
+box-sizing:border-box;
+width:100%;
+margin:0 0 2em 0;
+background-color: white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 0 10px var(--gris-normal);
+-webkit-transition: all 0.2s;
+transition: all 0.2s;
+}
+#activite .card:hover {
+-webkit-transform: scale(1.05);
+transform: scale(1.05);
+}
+#activite .card-picture {
+height:13vh;
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+}
+#activite .card-text {
+padding:1% 5%;
+height:50px;
+line-height:50px;
+}
+#activite .card-text h3 {
+margin:0;
+}
+
+/* FOOTER */
+footer {
+height:auto;
+padding:5%;
+box-sizing:border-box;
+}
+footer .row-sub {
+flex-direction:column;
+}
+footer .column {
+padding:5% 0;
+}

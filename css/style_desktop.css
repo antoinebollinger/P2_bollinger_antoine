@@ -1,0 +1,142 @@
+/* STYLE DESKTOP
+================================================== */
+
+/* NAV */
+header {
+position:fixed;
+height: 100px;
+width:100%;
+top:0;
+left:0;
+background-color: white;
+z-index:999;
+}
+nav {
+position:relative;
+height:100%;
+width:100%;
+padding:0 1%;
+margin: 0 auto;
+max-width: var(--max-width);
+box-sizing: border-box;
+}
+#logo {
+position:absolute;
+width:100px;
+height:100px;
+top:0;
+left:1%;
+background-image: url('../images/reservia.svg');
+background-position:center left;
+background-size: 100px;
+background-repeat: no-repeat;	
+}
+#nav-sub {
+display:flex;
+justify-content: flex-end;
+height:100%;
+}
+#nav-sub div {
+display: flex;
+align-items: center;
+padding:0 2%;
+border-top:2px solid white;
+}
+#nav-sub div.anchor.active {
+border-top:2px solid var(--bleu-normal);
+}
+#nav-sub div.active a, #nav-sub div:hover a {
+color: var(--bleu-normal);
+}
+
+/* MAIN */
+main {
+max-width: var(--max-width);
+}
+/* search div */
+#div-search button i {
+display:none;
+}
+/* Filtres */
+/* Info */
+p.info {
+align-items: center;
+}
+/* Hébergements & activités */
+#hebergement {
+flex:5;
+}
+/* Populaire */
+#populaire {
+flex:2;
+}
+/* Activités */
+#activite {
+width:100%;
+}
+#activite div.flex-container {
+display:flex;
+justify-content: space-between;
+margin-top:2em;
+}
+#activite div.column {
+display:flex;
+flex-direction: column;
+min-height:50vh;
+width:22%;
+}
+#activite div.column.one .card {
+flex:1;
+}
+#activite div.column.two .card:nth-child(1) {
+flex:3;
+}
+#activite div.column.two .card:nth-child(2) {
+flex:2;
+}
+#activite div.column.three .card {
+flex:1;
+}
+#activite div.column.four .card:nth-child(1) {
+flex:4;
+}
+#activite div.column.four .card:nth-child(2) {
+flex:5;
+}
+#activite .card {
+display:flex;
+flex-direction:column;
+position:relative;
+box-sizing:border-box;
+width:100%;
+margin:0 0 2em 0;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 0 5px var(--gris-normal);
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+background-color: white;
+-webkit-transition: all 0.2s;
+transition: all 0.2s;
+}
+#activite .card-picture {
+height:100%;
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+}
+#activite .card-text {
+width:90%;
+height:40px;
+line-height:40px;
+padding:0 5%;
+background-color:white;
+}
+#activite .card-text h3 {
+margin:0;
+}
+#activite .card:hover {
+-webkit-transform: scale(1.05);
+transform: scale(1.05);
+}
+
