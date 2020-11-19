@@ -1,0 +1,67 @@
+/* BACKGROUNDS */
+
+/* Hébergements */
+
+#hebergement a.card:nth-child(1) .card-picture {
+	background-image:url('../images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
+}
+
+#hebergement a.card:nth-child(2) .card-picture {
+	background-image:url('../images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg');
+}
+
+#hebergement a.card:nth-child(3) .card-picture {
+	background-image:url('../images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg');
+}
+
+#hebergement a.card:nth-child(4) .card-picture {
+	background-image:url('../images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg');
+}
+
+#hebergement a.card:nth-child(5) .card-picture {
+	background-image:url('../images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg');
+}
+
+#hebergement a.card:nth-child(6) .card-picture {
+	background-image:url('../images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg');
+}
+
+/* Les populaires */
+
+#populaire a.card:nth-child(1) .card-picture {
+	background-image:url('../images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
+}
+
+#populaire a.card:nth-child(2) .card-picture {
+	background-image:url('../images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg');
+}
+
+#populaire a.card:nth-child(3) .card-picture {
+	background-image:url('../images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
+}
+
+/* Activités */
+
+#activite div.one a.card:nth-child(1) .card-picture {
+	background-image:url('../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');
+}
+
+#activite div.two a.card:nth-child(1) .card-picture {
+	background-image:url('../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg');
+}
+
+#activite div.two a.card:nth-child(2) .card-picture {
+	background-image:url('../images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');
+}
+
+#activite div.three a.card:nth-child(1) .card-picture {
+	background-image:url('../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');
+}
+
+#activite div.four a.card:nth-child(1) .card-picture {
+	background-image:url('../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg');
+}
+
+#activite div.four a.card:nth-child(2) .card-picture {
+	background-image:url('../images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg');
+}

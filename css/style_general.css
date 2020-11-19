@@ -23,13 +23,14 @@ html, body {
 a {
 	text-decoration:none;
 	color:inherit;
+	transition: color 0.2s;
 } 
 
 header a, footer a {
 	color:var(--gris-fonce);
 }
 
-header a:hover, footer a:hover {
+header a:hover, footer a:hover, #hebergement > a:hover {
 	color:var(--bleu-normal);
 }
 
@@ -311,6 +312,7 @@ main div.hebergement-sub {
 	display:flex;
 	box-sizing:border-box;
 	width:100%;
+	min-height: 15vh;
 	margin:0 0 2em 0;
 	background-color: white;
 	border-radius:15px;
@@ -334,8 +336,11 @@ main div.hebergement-sub {
 }
 
 #populaire .card-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	flex:3;
-	padding:5%;
+	padding:0 5%;
 }
 
 /* FOOTER */
