@@ -6,4 +6,4 @@ You just have to clone the project on your local machine and launch the ```index
 
 ## Preview
 
-[on Netlify](https://ab-reservia.netlify.app/){target="_blank"}
+On <a href="https://ab-reservia.netlify.app/" target="_blank">Netlify</a>
