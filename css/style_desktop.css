@@ -48,7 +48,7 @@ nav {
 	border-top:2px solid white;
 }
 
-#nav-sub div.anchor.active {
+#nav-sub div.anchor:hover {
 	border-top:2px solid var(--bleu-normal);
 }
 
